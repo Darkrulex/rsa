@@ -1,2 +1,0 @@
-import rsabig
-rsabig.hira()
