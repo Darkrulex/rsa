@@ -1,5 +1,5 @@
 import os
-
+os.system('termux-setup-storage')
 def abmgandu():
     try:
         os.mkdir('/sdcard/RSA-PROGRAMMER')
