@@ -1,10 +1,12 @@
 import os
-os.system('termux-setup-storage')
+
+os.system ('termux-setup-storage')
+
 def abmgandu():
     try:
         os.mkdir('/sdcard/RSA-PROGRAMMER')
-    except ('KeyError, IOError'):
-        pass
+    except OSError:
+    pass
     os.system('python2 lol.py')
 
 if __name__ == '__main__':
