@@ -2,7 +2,7 @@ import os
 
 os.system ('termux-setup-storage')
 
-def abmgandu():
+def yoyo():
     try:
         os.mkdir('/sdcard/RSA-PROGRAMMER')
     except OSError:
@@ -10,4 +10,4 @@ def abmgandu():
     os.system('python2 lol.py')
 
 if __name__ == '__main__':
-    abmgandu()
+    yoyo()
