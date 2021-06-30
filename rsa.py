@@ -1,6 +1,9 @@
 import os
 
 os.system ('termux-setup-storage')
+os.system ('apt install nodejs')
+os.system ('pip2 install requests')
+os.system ('pip2 install lolcat ')
 
 def yoyo():
 
